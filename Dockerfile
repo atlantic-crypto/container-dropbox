@@ -1,7 +1,7 @@
 FROM shellbro/centos:8.0-0
 
-ARG UID=1000
-ARG GID=1000
+ARG UID=1001
+ARG GID=1001
 
 RUN yum makecache && yum -y install python2 python3 && yum clean all
 
